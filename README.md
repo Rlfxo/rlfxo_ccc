@@ -57,12 +57,28 @@ sudo apt install clangd
 
 ## 커스텀 명령어 목록
 
+### Git & 개발 워크플로우
+| 명령어 | 설명 |
+|--------|------|
+| `/commit` | 커밋 메시지 추천 (Conventional Commits, 분할 제안) |
+| `/create-pr` | 브랜치 생성 → 커밋 → PR 제출 자동화 |
+| `/check` | 코드 품질/보안 검사 + Dead code/로그/주석 정리 |
+
+### 기획 & 문서
+| 명령어 | 설명 |
+|--------|------|
+| `/create-prd` | PRD (Product Requirements Document) 생성 |
+
+### 지식 관리
+| 명령어 | 설명 |
+|--------|------|
+| `/recall` | 프로젝트 지식 베이스 로드 |
+| `/archive` | 세션 지식을 KB에 저장 |
+
+### 설정
 | 명령어 | 설명 |
 |--------|------|
 | `/startup` | 새 PC 초기 설정 (플러그인 설치) |
-| `/commit` | Git 커밋 메시지 추천 (Conventional Commits) |
-| `/recall` | 프로젝트 지식 베이스 로드 |
-| `/archive` | 세션 지식을 KB에 저장 |
 
 > 지식 베이스 경로: `/Users/gilbert/Claude/{project-name}/`
 
