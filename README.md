@@ -7,6 +7,7 @@
 ```
 ~/.claude/
 ├── commands/           # 커스텀 슬래시 명령어
+├── skills/             # Anthropic 공식 skills
 ├── settings.json       # 공통 설정
 └── .gitignore          # 자동 생성 파일 제외
 ```
@@ -68,6 +69,30 @@ sudo apt install clangd
 | `/archive` | 세션 지식 아카이브 |
 | `/ask-kb` | 지식 베이스 쿼리 |
 | `/recall` | 프로젝트 지식 리콜 |
+
+## Skills (from Anthropic)
+
+[anthropics/skills](https://github.com/anthropics/skills)에서 가져온 공식 skills
+
+### 개발 도구
+| Skill | 설명 |
+|-------|------|
+| **skill-creator** | 새로운 skill 만드는 가이드 |
+| **mcp-builder** | MCP 서버 개발 (LLM-외부 서비스 연동) |
+
+### 문서 처리
+| Skill | 설명 |
+|-------|------|
+| **pdf** | PDF 생성/편집/분석 (pypdf, pdfplumber, reportlab) |
+| **docx** | Word 문서 생성/편집/Tracked Changes |
+| **xlsx** | Excel 스프레드시트/수식/데이터 분석 |
+| **doc-coauthoring** | 문서 공동 작성 워크플로우 (3단계) |
+
+### 디자인/프론트엔드
+| Skill | 설명 |
+|-------|------|
+| **frontend-design** | UI 디자인 원칙, 타이포그래피, 색상, 애니메이션 |
+| **web-artifacts-builder** | React+TypeScript 웹 아티팩트 빌드 |
 
 ## 로컬 설정
 
