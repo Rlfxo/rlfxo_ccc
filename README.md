@@ -60,15 +60,11 @@ sudo apt install clangd
 | 명령어 | 설명 |
 |--------|------|
 | `/startup` | 새 PC 초기 설정 (플러그인 설치) |
-| `/commit` | Git 커밋 메시지 추천 |
-| `/analyze-repo` | 프로젝트 구조/아키텍처 분석 |
-| `/review-code` | 코드 리뷰 수행 |
-| `/doc-gen` | 문서 생성 |
-| `/find-similar` | 유사 코드/패턴 찾기 |
-| `/quick-fix` | 빠른 버그 수정 분석 |
-| `/archive` | 세션 지식 아카이브 |
-| `/ask-kb` | 지식 베이스 쿼리 |
-| `/recall` | 프로젝트 지식 리콜 |
+| `/commit` | Git 커밋 메시지 추천 (Conventional Commits) |
+| `/recall` | 프로젝트 지식 베이스 로드 |
+| `/archive` | 세션 지식을 KB에 저장 |
+
+> 지식 베이스 경로: `/Users/gilbert/Claude/{project-name}/`
 
 ## Skills (from Anthropic)
 
