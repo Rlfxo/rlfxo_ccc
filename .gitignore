@@ -1,0 +1,39 @@
+# ========================================
+# Claude Code Auto-generated Files
+# DO NOT TRACK - 자동 생성되는 캐시/로그
+# ========================================
+
+# Cache & Debug
+cache/
+debug/
+paste-cache/
+
+# History & Sessions
+file-history/
+history.jsonl
+session-env/
+shell-snapshots/
+
+# Projects & Plans
+plans/
+projects/
+todos/
+
+# Plugins & Stats
+plugins/
+stats-cache.json
+statsig/
+telemetry/
+ide/
+
+# ========================================
+# Local Settings (개인 설정, 공유 안 함)
+# ========================================
+settings.local.json
+*.local.*
+
+# ========================================
+# OS Files
+# ========================================
+.DS_Store
+Thumbs.db
