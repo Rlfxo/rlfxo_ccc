@@ -7,6 +7,7 @@
 cache/
 debug/
 paste-cache/
+tasks/
 
 # History & Sessions
 file-history/

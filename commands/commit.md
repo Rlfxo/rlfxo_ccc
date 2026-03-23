@@ -45,6 +45,7 @@ Staged Changes를 분석하여 적절한 commit message를 추천하라.
 2. 본문은 72자에서 줄바꿈
 3. Why와 What 중심으로 작성
 4. 이모지 사용 금지
+5. Co-Authored-By Claude 작성 금지
 
 ## 출력 형식
 
